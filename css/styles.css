@@ -340,7 +340,7 @@ button {
 }
 .footer .container {
     display: flex;
-    align-items: baseline
+    align-items: flex-start
 }
 .footer-logo {
     margin-right: 120px;
@@ -354,7 +354,7 @@ button {
     max-width: 264px;
 }
 .footer-media {
-    margin-right: 80px;
+    
 }
 .footer-media-text {
     color: #ffffff;
@@ -382,6 +382,9 @@ button {
 }
 .footer-media-icon {
     fill: #f4f4fd;
+}
+.footer-subscribe {
+    margin-left: auto;
 }
 .subscribe-form {
     display: flex;
